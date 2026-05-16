@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manut gusti allah - Portfolio Ahmad</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <!-- Particles -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-text">
+            <h1>MY PROFIL</h1>
+            <div class="loader"></div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-user-circle"></i>
+                <span>Ahmad Azhar Roziin</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> Tentang</a></li>
+                <li><a href="#skills" class="nav-link"><i class="fas fa-chart-line"></i> Skills</a></li>
+                <li><a href="#journey" class="nav-link"><i class="fas fa-road"></i> Perjalanan</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Kontak</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="hero-greeting">
+                    <span>Halo, my name azhar</span>
+                    <div class="typing-effect" data-text="seniman|pendaki|atlet silat"></div>
+                </div>
+                <h1 class="hero-name">Ahmad Azhar Roziin</h1>
+                <p class="hero-desc">
+                    “Berdedikasi, bertanggung jawab, konsisten karena saya selalu menjaga kualitas kerja dan bisa diandalkan dalam menyelesaikan tugas tepat waktu.”
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Hubungi Saya
+                    </a>
+                    <a href="#journey" class="btn btn-secondary">
+                        <i class="fas fa-file-download"></i> Lihat Perjalanan
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <span><strong>20</strong>/2006</span>
+                    <span><strong>Daerah Istimewa Yogyakarta</strong></span>
+                    <span><strong>100%</strong> Passion</span>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="profile-card">
+                    <div class="profile-image">
+                      <img src="img/PROFILL.jpg" alt="Ahmad Azhar" id="profileImg">
+                    <div class="image-overlay"></div>
+                    </div>
+                    <div class="profile-badges">
+                        <span class="badge">baik</span>
+                        <span class="badge">jujur</span>
+                        <span class="badge">suka menabung</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Kenalan yuk!</span>
+                <h2 class="section-title">Tentang seorang Azhar</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        saya hanya seorang amatir yang ingin menjadi profesional dalam bidang IT salah satunya membuat website
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <span>Love what I do</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-bolt"></i>
+                            <span>Fast learner</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <span>Team player</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <div class="info-item">
+                        <span class="info-label">Nama</span>
+                        <span class="info-value">Ahmad Azhar Roziin</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Umur</span>
+                        <span class="info-value">20 tahun</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Email</span>
+                        <span class="info-value">ahmadazharroz@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Lokasi</span>
+                        <span class="info-value">jogja,DIY</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Freelance</span>
+                        <span class="info-value">WEB DEFELOPER</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Apa yang saya bisa</span>
+                <h2 class="section-title">Skills & Dailys</h2>
+            </div>
+            <div class="skills-categories">
+                <div class="skill-category">
+                    <h3>Skills</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span>Olahraga</span>
+                            <div class="bar"><div class="progress" data-width="30"></div></div>
+                        </div>
+                        <div class="skill-bar">
+                            <span>coding</span>
+                            <div class="bar"><div class="progress" data-width="50"></div></div>
+                        </div>
+                        <div class="skill-bar">
+                            <span>public speaking</span>
+                            <div class="bar"><div class="progress" data-width="45"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3> MY daily life</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span>makan</span>
+                            <div class="bar"><div class="progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-bar">
+                            <span>tidur</span>
+                            <div class="bar"><div class="progress" data-width="100"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section id="journey" class="section journey-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Kisahku</span>
+                <h2 class="section-title">My Journey</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-year="2024">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Mahasiswa Semester 2</h3>
+                        <p>Teknik Informatika - Universitas Ahmad Dahlan</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2023">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Mahasiswa Kupu-Kupu</h3>
+                        <p>mangan,ngising,turu</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2022">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>main hp seharian</h3>
+                        <p>Tik tok,instagram,melolo</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2021">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Mulai Coding</h3>
+                        <p>Pertama kali kenal programming di masa kuliah</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Mari berkenalan</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Mau kolab?</h3>
+                    <p>Saya open diskusi untuk project menarik, magang, atau sekedar ngobrol soal coding!</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nama lengkap" required>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subjek">
+                        <textarea placeholder="Ceritain project impianmu..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Kirim Pesan
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Ahmad Azhar Roziin. Made with <i class="fas fa-heart"></i> & lots of coffee ☕</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
